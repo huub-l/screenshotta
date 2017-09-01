@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   const viewports = [1600, 1000, 800, 600, 500];
 
-  await page.goto('#url'); // Add url
+  await page.goto('https://dev.ifinda.co.uk'); // Add url
 
   for(let i=0; i < viewports.length; i++) {
     let vw = viewports[i];
