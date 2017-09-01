@@ -1,0 +1,14 @@
+{
+  "name": "screenshotta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Steve North",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^0.10.1"
+  }
+}
