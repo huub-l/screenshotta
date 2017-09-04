@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const viewports = [1600, 1000, 800, 600, 500];
+  const viewports = [1200, 992, 768, 576, 350];
 
   await page.goto('https://google.com'); // Add url
 
